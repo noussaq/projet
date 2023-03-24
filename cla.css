@@ -1,0 +1,80 @@
+
+  
+  body {
+	background-color:rgb(21, 4, 53);
+}
+h1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 96px;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+  }
+.stars {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+   
+  }
+  
+  .stars img {
+    width: 100%;
+    height: auto;
+  }
+
+
+  .container {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+.container img {
+	width: 100%;
+	height: auto;
+}
+
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+
+  text-align: center;
+
+  margin-top: 5rem;
+
+  
+}
+
+.countdown-item {
+  margin: 0 1rem;
+}
+
+.countdown-number {
+    display: block;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: rgb(120, 21, 104);
+    background-color: grey; /* set background color of countdown numbers */
+    padding: 0.5rem 1rem; /* add some padding to make the countdown numbers more visible */
+    border-radius: 0.5rem; /* add some rounded corners */
+  }
+
+.countdown-text {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: #666;
+}
